@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_65fb321a3801b22d23bdfd3c1be092bc {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_65fb321a3801b22d23bdfd3c1be092bc" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_65fb321a3801b22d23bdfd3c1be092bc = L.map(
+                "map_65fb321a3801b22d23bdfd3c1be092bc",
+                {
+                    center: [40.447, -3.693],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_99eb51260da10b2b277e35fb651344b0 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_99eb51260da10b2b277e35fb651344b0.addTo(map_65fb321a3801b22d23bdfd3c1be092bc);
+        
+    
+            var marker_c537283e1b88506135ba39a5c8828e1c = L.marker(
+                [40.435029, -3.68974],
+                {}
+            ).addTo(map_65fb321a3801b22d23bdfd3c1be092bc);
+        
+    
+        var popup_d6b3cd58fbf55e3f6dd4c0317073e14a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c2f4f15f107846ff57d5fa0cd81d982 = $(`<div id="html_4c2f4f15f107846ff57d5fa0cd81d982" style="width: 100.0%; height: 100.0%;">Paseo de la Castellana 7, Madrid</div>`)[0];
+                popup_d6b3cd58fbf55e3f6dd4c0317073e14a.setContent(html_4c2f4f15f107846ff57d5fa0cd81d982);
+            
+        
+
+        marker_c537283e1b88506135ba39a5c8828e1c.bindPopup(popup_d6b3cd58fbf55e3f6dd4c0317073e14a)
+        ;
+
+        
+    
+    
+            var marker_1a5c95ca6faec06346099d3ad8e18f19 = L.marker(
+                [40.452355, -3.694131],
+                {}
+            ).addTo(map_65fb321a3801b22d23bdfd3c1be092bc);
+        
+    
+        var popup_b61bc8e7868969af6aebd18640f7aa97 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a353baefa01c3823377811328b6f0475 = $(`<div id="html_a353baefa01c3823377811328b6f0475" style="width: 100.0%; height: 100.0%;">General Perón 40, Madrid</div>`)[0];
+                popup_b61bc8e7868969af6aebd18640f7aa97.setContent(html_a353baefa01c3823377811328b6f0475);
+            
+        
+
+        marker_1a5c95ca6faec06346099d3ad8e18f19.bindPopup(popup_b61bc8e7868969af6aebd18640f7aa97)
+        ;
+
+        
+    
+    
+            var marker_852850f458a4f0c7c993e68269b17b35 = L.marker(
+                [40.460981464632596, -3.693688687992474],
+                {}
+            ).addTo(map_65fb321a3801b22d23bdfd3c1be092bc);
+        
+    
+        var popup_81aeb86e4b9b6a7bbf87b59440372e55 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_790d45bb24b1af192361daa0317b2413 = $(`<div id="html_790d45bb24b1af192361daa0317b2413" style="width: 100.0%; height: 100.0%;">Orense 62, Tetuán, 28020 Madrid</div>`)[0];
+                popup_81aeb86e4b9b6a7bbf87b59440372e55.setContent(html_790d45bb24b1af192361daa0317b2413);
+            
+        
+
+        marker_852850f458a4f0c7c993e68269b17b35.bindPopup(popup_81aeb86e4b9b6a7bbf87b59440372e55)
+        ;
+
+        
+    
+    
+            var marker_6f179502d18e0d112fa52a38e10c9ba7 = L.marker(
+                [40.435639, -3.683689],
+                {}
+            ).addTo(map_65fb321a3801b22d23bdfd3c1be092bc);
+        
+    
+        var popup_1fca6f2c5001f36e64db5da1c8fb25ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a219b56737b5550a20bca6b8614e6771 = $(`<div id="html_a219b56737b5550a20bca6b8614e6771" style="width: 100.0%; height: 100.0%;">Maria de Molina 37, Madrid</div>`)[0];
+                popup_1fca6f2c5001f36e64db5da1c8fb25ae.setContent(html_a219b56737b5550a20bca6b8614e6771);
+            
+        
+
+        marker_6f179502d18e0d112fa52a38e10c9ba7.bindPopup(popup_1fca6f2c5001f36e64db5da1c8fb25ae)
+        ;
+
+        
+    
+    
+            var marker_3d31acce2a66a757df416e8ce39c423d = L.marker(
+                [40.432789, -3.684222],
+                {}
+            ).addTo(map_65fb321a3801b22d23bdfd3c1be092bc);
+        
+    
+        var popup_b9e70a10bb8f2c5666c3158b189cf62d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_60b72bfc043d46377d87265579e3716e = $(`<div id="html_60b72bfc043d46377d87265579e3716e" style="width: 100.0%; height: 100.0%;">Velázquez 86, Madrid</div>`)[0];
+                popup_b9e70a10bb8f2c5666c3158b189cf62d.setContent(html_60b72bfc043d46377d87265579e3716e);
+            
+        
+
+        marker_3d31acce2a66a757df416e8ce39c423d.bindPopup(popup_b9e70a10bb8f2c5666c3158b189cf62d)
+        ;
+
+        
+    
+    
+            var marker_f6d8d3832c4a4304a04d9738ff59d0d5 = L.marker(
+                [40.423585, -3.693174],
+                {}
+            ).addTo(map_65fb321a3801b22d23bdfd3c1be092bc);
+        
+    
+        var popup_7f6ff9b4a640d6052ef1426ec7182693 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7bb0505c8f6a843472c6233c5f17937b = $(`<div id="html_7bb0505c8f6a843472c6233c5f17937b" style="width: 100.0%; height: 100.0%;">Prim 12, Madrid</div>`)[0];
+                popup_7f6ff9b4a640d6052ef1426ec7182693.setContent(html_7bb0505c8f6a843472c6233c5f17937b);
+            
+        
+
+        marker_f6d8d3832c4a4304a04d9738ff59d0d5.bindPopup(popup_7f6ff9b4a640d6052ef1426ec7182693)
+        ;
+
+        
+    
+    
+            var marker_4c11762050696de5e8df5af35e8cf557 = L.marker(
+                [40.439865, -3.688656],
+                {}
+            ).addTo(map_65fb321a3801b22d23bdfd3c1be092bc);
+        
+    
+        var popup_6271f03f791a7288417b40eb821f5538 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_17f7844735bbcad6748557f62097fad9 = $(`<div id="html_17f7844735bbcad6748557f62097fad9" style="width: 100.0%; height: 100.0%;">Alfredo Mahou 17, Madrid</div>`)[0];
+                popup_6271f03f791a7288417b40eb821f5538.setContent(html_17f7844735bbcad6748557f62097fad9);
+            
+        
+
+        marker_4c11762050696de5e8df5af35e8cf557.bindPopup(popup_6271f03f791a7288417b40eb821f5538)
+        ;
+
+        
+    
+    
+            var marker_a7b353377037885fbdc7b3ecee0d5ea2 = L.marker(
+                [40.472306, -3.686011],
+                {}
+            ).addTo(map_65fb321a3801b22d23bdfd3c1be092bc);
+        
+    
+        var popup_eaa6bf8be2e5be18dcacd4661fdda2c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef6d898a6e5db5406669a63c5230c40f = $(`<div id="html_ef6d898a6e5db5406669a63c5230c40f" style="width: 100.0%; height: 100.0%;">Paseo de la Castellana 259, Madrid</div>`)[0];
+                popup_eaa6bf8be2e5be18dcacd4661fdda2c6.setContent(html_ef6d898a6e5db5406669a63c5230c40f);
+            
+        
+
+        marker_a7b353377037885fbdc7b3ecee0d5ea2.bindPopup(popup_eaa6bf8be2e5be18dcacd4661fdda2c6)
+        ;
+
+        
+    
+</script>
+</html>
